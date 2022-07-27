@@ -1,6 +1,7 @@
 import {ActionTimeline} from './ActionTimeline'
 import {CastTime} from './CastTime'
 import {DoTs} from './DoTs'
+import {GCDHeals} from './GCDHealing'
 import {Interrupts} from './Interrupts'
 import {Lilies} from './Lilies'
 import {OGCDs as oGCDs} from './oGCDs'
@@ -18,6 +19,7 @@ export default [
 	oGCDs,
 	Overheal,
 	Swiftcast,
+	GCDHeals,
 	Thinair,
 	Tincture,
 ]
